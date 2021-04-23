@@ -13,11 +13,12 @@
 ## Tools used:
 - EDA, Modeling: Python Jupyter Notebook
 
-## Files explained (The original dataset is not put here since it is too large):
+## Files explained:
+(The original dataset is not put here since it is too large)
 - **Loan_Interest_Rate_Prediction_Assignment.ipynb**: the notebook that contains all codes written for this project
 - **Metadata.csv**: the file that explains the meaning of each column in the dataset
 
 ## Result:
-▪ Imputed missing values, one-hot/label encoded different categorical variables and deleted highly correlated features
-▪ Applied and compared 5 ML algorithms(Decision Tree, Random Forest, Linear Regression, Gradient Boosting)
-▪ Achieved RMSE score of 0.02 (initial RMSE: 3.0+) by reducing the 30 features (100+features after encoding) to only 2 important features after feature analysis and choosing Linear Regression after model comparison 
+1. Imputed missing values, one-hot/label encoded different categorical variables and deleted highly correlated features
+2. Applied and compared 5 ML algorithms(Decision Tree, Random Forest, Linear Regression, Gradient Boosting)
+3. Achieved RMSE score of 0.02 (initial RMSE: 3.0+) by reducing the 30 features (100+features after encoding) to only 2 important features after feature analysis and choosing Linear Regression after model comparison 
